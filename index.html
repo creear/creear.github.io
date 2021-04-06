@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Gobang" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/04/06/Gobang/" class="article-date">
+  <time class="dt-published" datetime="2021-04-06T04:37:00.000Z" itemprop="datePublished">2021-04-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/04/06/Gobang/">Gobang</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><table>
+<thead>
+<tr>
+<th>预约人数</th>
+<th>开始推动</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>10^1</td>
+<td>基础功能</td>
+<td></td>
+</tr>
+<tr>
+<td>10^2</td>
+<td>单机效果</td>
+<td>角色,多人对战,更换棋子,不太难的效果</td>
+</tr>
+<tr>
+<td>10^3</td>
+<td>发布,进度主页文字版本</td>
+<td></td>
+</tr>
+<tr>
+<td>10^4</td>
+<td>联机,五行塔防,进度主页图片版本</td>
+<td></td>
+</tr>
+<tr>
+<td>10^5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^6</td>
+<td>百人棋盘</td>
+<td></td>
+</tr>
+<tr>
+<td>10^7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^9</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="基础功能"><a href="#基础功能" class="headerlink" title="基础功能"></a>基础功能</h1><h2 id="人机对战"><a href="#人机对战" class="headerlink" title="人机对战"></a>人机对战</h2><h2 id="添加-一个-游戏角色"><a href="#添加-一个-游戏角色" class="headerlink" title="添加 一个 游戏角色"></a>添加 一个 游戏角色</h2><h1 id="单机效果-多人对战-更换棋子-不太难的效果"><a href="#单机效果-多人对战-更换棋子-不太难的效果" class="headerlink" title="单机效果:多人对战,更换棋子,不太难的效果"></a>单机效果:多人对战,更换棋子,不太难的效果</h1><h2 id="覆盖-棋盘-可能是变成黑色-也可能是变成风暴"><a href="#覆盖-棋盘-可能是变成黑色-也可能是变成风暴" class="headerlink" title="覆盖 棋盘  可能是变成黑色 也可能是变成风暴"></a>覆盖 棋盘  可能是变成黑色 也可能是变成风暴</h2><h2 id="爆炸效果-或者是-吸走棋子的效果-总之-是让-棋子-变得-看不见"><a href="#爆炸效果-或者是-吸走棋子的效果-总之-是让-棋子-变得-看不见" class="headerlink" title="爆炸效果 或者是 吸走棋子的效果 总之 是让 棋子 变得 看不见"></a>爆炸效果 或者是 吸走棋子的效果 总之 是让 棋子 变得 看不见</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><h1 id="发布-五行塔防-进度主页"><a href="#发布-五行塔防-进度主页" class="headerlink" title="发布,五行塔防,进度主页"></a>发布,五行塔防,进度主页</h1><h2 id="塔防与策略的-复杂对战游戏"><a href="#塔防与策略的-复杂对战游戏" class="headerlink" title="塔防与策略的 复杂对战游戏"></a>塔防与策略的 复杂对战游戏</h2><p>如何 结合 塔防 与卡牌游戏的乐趣<br>属性:金木水火土<br>效果:攻击/防御/遮挡/特殊效果/生长/装备(水)  子/棋盘 消失/限定/(棋盘)  天星照子/人体大图/山川移位/五将胁城/大河失涛(阵图,区域效果,棋盘变化)    拼接/覆盖/合成(棋盘固定位置的效果)  (角色固定效果,比如三国武将或者是著名故事,取自历史人物)  区形/方形(某种固定阵型效果,比如每过一段时间形状就要发生变化)<br>举例效果:束缚 防御 生长 蔓延 水流席卷 燃烧 爆炸  风暴 无法看清<br>举例效果:锁链:束缚防御(金) 固若金汤/金砖:防御(金) 沙暴:遮挡效果(土)  水雾:遮挡效果(水)  狼烟:遮挡效果(火)  金光:遮挡效果(金) 杂草/树叶:遮挡效果(木)</p>
+<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><h2 id="进度主页"><a href="#进度主页" class="headerlink" title="进度主页"></a>进度主页</h2><h1 id="联机"><a href="#联机" class="headerlink" title="联机"></a>联机</h1><h1 id="百人棋盘"><a href="#百人棋盘" class="headerlink" title="百人棋盘"></a>百人棋盘</h1><p>超大棋盘 不断累计塔防效果 就像一个服务器 只有一个 大棋盘 一样 打的越多 赢得越多 棋力越强</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/04/06/Gobang/" data-id="ckn5m8nhv0000codn4g0q2gp5" data-title="Gobang" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-My-New-Post" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/04/05/My-New-Post/" class="article-date">
+  <time class="dt-published" datetime="2021-04-04T16:29:35.000Z" itemprop="datePublished">2021-04-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/04/05/My-New-Post/">My New Post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h1><table>
+<thead>
+<tr>
+<th>预约人数</th>
+<th>开始推动</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>10^1</td>
+<td>基础功能</td>
+<td></td>
+</tr>
+<tr>
+<td>10^2</td>
+<td>单机效果</td>
+<td>角色,多人对战,更换棋子,不太难的效果</td>
+</tr>
+<tr>
+<td>10^3</td>
+<td>发布,进度主页文字版本</td>
+<td></td>
+</tr>
+<tr>
+<td>10^4</td>
+<td>联机,五行塔防,进度主页图片版本</td>
+<td></td>
+</tr>
+<tr>
+<td>10^5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^6</td>
+<td>百人棋盘</td>
+<td></td>
+</tr>
+<tr>
+<td>10^7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10^9</td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<h1 id="基础功能"><a href="#基础功能" class="headerlink" title="基础功能"></a>基础功能</h1><h2 id="人机对战"><a href="#人机对战" class="headerlink" title="人机对战"></a>人机对战</h2><h2 id="添加-一个-游戏角色"><a href="#添加-一个-游戏角色" class="headerlink" title="添加 一个 游戏角色"></a>添加 一个 游戏角色</h2><h1 id="单机效果-多人对战-更换棋子-不太难的效果"><a href="#单机效果-多人对战-更换棋子-不太难的效果" class="headerlink" title="单机效果:多人对战,更换棋子,不太难的效果"></a>单机效果:多人对战,更换棋子,不太难的效果</h1><h2 id="覆盖-棋盘-可能是变成黑色-也可能是变成风暴"><a href="#覆盖-棋盘-可能是变成黑色-也可能是变成风暴" class="headerlink" title="覆盖 棋盘  可能是变成黑色 也可能是变成风暴"></a>覆盖 棋盘  可能是变成黑色 也可能是变成风暴</h2><h2 id="爆炸效果-或者是-吸走棋子的效果-总之-是让-棋子-变得-看不见"><a href="#爆炸效果-或者是-吸走棋子的效果-总之-是让-棋子-变得-看不见" class="headerlink" title="爆炸效果 或者是 吸走棋子的效果 总之 是让 棋子 变得 看不见"></a>爆炸效果 或者是 吸走棋子的效果 总之 是让 棋子 变得 看不见</h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><h1 id="发布-五行塔防-进度主页"><a href="#发布-五行塔防-进度主页" class="headerlink" title="发布,五行塔防,进度主页"></a>发布,五行塔防,进度主页</h1><h2 id="塔防与策略的-复杂对战游戏"><a href="#塔防与策略的-复杂对战游戏" class="headerlink" title="塔防与策略的 复杂对战游戏"></a>塔防与策略的 复杂对战游戏</h2><p>如何 结合 塔防 与卡牌游戏的乐趣<br>属性:金木水火土<br>效果:攻击/防御/遮挡/特殊效果/生长/装备(水)  子/棋盘 消失/限定/(棋盘)  天星照子/人体大图/山川移位/五将胁城/大河失涛(阵图,区域效果,棋盘变化)    拼接/覆盖/合成(棋盘固定位置的效果)  (角色固定效果,比如三国武将或者是著名故事,取自历史人物)  区形/方形(某种固定阵型效果,比如每过一段时间形状就要发生变化)<br>举例效果:束缚 防御 生长 蔓延 水流席卷 燃烧 爆炸  风暴 无法看清<br>举例效果:锁链:束缚防御(金) 固若金汤/金砖:防御(金) 沙暴:遮挡效果(土)  水雾:遮挡效果(水)  狼烟:遮挡效果(火)  金光:遮挡效果(金) 杂草/树叶:遮挡效果(木)</p>
+<h2 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h2><h2 id="进度主页"><a href="#进度主页" class="headerlink" title="进度主页"></a>进度主页</h2><h1 id="联机"><a href="#联机" class="headerlink" title="联机"></a>联机</h1><h1 id="百人棋盘"><a href="#百人棋盘" class="headerlink" title="百人棋盘"></a>百人棋盘</h1><p>超大棋盘 不断累计塔防效果 就像一个服务器 只有一个 大棋盘 一样 打的越多 赢得越多 棋力越强</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/04/05/My-New-Post/" data-id="ckn5m8ni10001codn2mn71o7p" data-title="My New Post" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/04/05/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2021-04-04T16:02:53.884Z" itemprop="datePublished">2021-04-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2021/04/05/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/04/05/hello-world/" data-id="ckn5m8ni50002codn04sh3kwk" data-title="Hello World" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/04/">April 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/04/06/Gobang/">Gobang</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/05/My-New-Post/">My New Post</a>
+          </li>
+        
+          <li>
+            <a href="/2021/04/05/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
